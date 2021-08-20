@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main: list of products</1^1е>
+</head>
+
+<body>
+    <Ь1>Products</Ь1>
+    {% for bb in bbs %}
+    <div>
+        <h2>{{ bb.title }}</h2>
+        <p>{{ bb.content }}</p>
+        <p>{{ bb.published|date:"d.m.Y H:i:s" }}</p>
+    </div>
+    {% endfor %}
+</body>
+
+</html>
